@@ -30,12 +30,13 @@ SELECT b.id AS bnb_id,
        SUM(CASE WHEN o.currency = 'TWD' THEN o.amount ELSE 0 END) AS may_amount
 ```
   
-## API 實作測驗
+## API 實作測驗  
 #### 題目一  
 答案：  
-SOLID原則(僅列出有使用到的原則)
-單一職責原則：每個類別只負責一個功能（驗證或轉換）。
-開放封閉原則：類別應該容易擴展但不修改，方便添加新功能。
-失敗：
-
-成功：
+SOLID原則(僅列出有使用到的原則)  
+單一職責原則：每個類別只負責一個功能（驗證或轉換）。  
+開放封閉原則：類別應該容易擴展但不修改，方便添加新功能。  
+失敗：  
+![image](https://github.com/s9971212/AsiaYo/blob/85b652c0fcd266dead2bed574e6f2dc4532d7650/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-07-19%20223828.png)
+成功：  
+![image](https://github.com/s9971212/AsiaYo/blob/85b652c0fcd266dead2bed574e6f2dc4532d7650/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-07-19%20223907.png)
